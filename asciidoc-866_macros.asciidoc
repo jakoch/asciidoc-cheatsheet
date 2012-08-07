@@ -1,0 +1,153 @@
+++++
+<table class=cs>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+[[anchor-1]]
+Paragraph or block 1.
+
+anchor:anchor-2[]
+Paragraph or block 2.
+
+<<anchor-1>>,
+<<anchor-1,First anchor>>,
+xref:anchor-2[],
+xref:anchor-2[Second anchor].
+
+....
+++++
+</td><td class="col2">
+++++
+[[anchor-1]]
+Paragraph or block 1.
+
+anchor:anchor-2[]
+Paragraph or block 2.
+
+<<anchor-1>>,
+<<anchor-1,First anchor>>,
+xref:anchor-2[],
+xref:anchor-2[Second anchor].
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+link:asciidoc[This document]
+link:asciidoc.html[]
+link:/index.html[This site root]
+
+....
+++++
+</td><td class="col2">
+++++
+link:asciidoc[This document]
+link:asciidoc.html[]
+link:/index.html[This site root]
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+http://google.com
+http://google.com[Google Search]
+mailto:root@localhost[email admin]
+
+....
+++++
+</td><td class="col2">
+++++
+http://google.com
+http://google.com[Google Search]
+mailto:root@localhost[email admin]
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+First home
+image:images/icons/home.png[]
+, second home
+image:images/icons/home.png[Alt text]
+.
+
+.Block image
+image::images/icons/home.png[]
+image::images/icons/home.png[Alt text]
+
+.Thumbnail linked to full image
+image:/images/font/640-screen2.gif[
+"My screenshot",width=128,
+link="/images/font/640-screen2.gif"]
+
+....
+++++
+</td><td class="col2">
+++++
+First home
+image:images/icons/home.png[]
+, second home
+image:images/icons/home.png[Alt text]
+.
+
+.Block image
+image::images/icons/home.png[]
+image::images/icons/home.png[Alt text]
+
+.Thumbnail linked to full image
+image:/images/font/640-screen2.gif[
+"My screenshot",width=128,
+link="/images/font/640-screen2.gif"]
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+This is example how files
+can be included.
+It's commented because
+there no such files. :)
+
+// include::footer.txt[]
+
+// [source,perl]
+// ----
+// include::script.pl[]
+// ----
+
+....
+++++
+</td><td class="col2">
+++++
+This is example how files
+can be included.
+It's commented because
+there no such files. :)
+
+// include::footer.txt[]
+
+// [source,perl]
+// ----
+// include::script.pl[]
+// ----
+
+++++
+</td></tr>
+++++
+++++
+</table>
+++++

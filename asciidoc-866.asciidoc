@@ -1,0 +1,103 @@
+AsciiDoc cheatsheet
+===================
+Alex Efros <powerman@powerman.name>
+:Revision: 2.2.1
+:pygments:
+
+// This document is designed to be viewed as HTML
+
+++++
+<style>
+table.cs div.literalblock,
+table.cs div.admonitionblock {
+    margin:0;
+}
+table.cs { width: 100%; }
+table.cs td.col1 { width: 50%; padding: 1% 0; }
+table.cs td.col2 { width: 50%; padding:1% 0 1% 1%; border-left:solid,2px,#ddd; }
+table.cs tr.even { background-color: #FAFAFA; }
+</style>
+<script src="/js/jquery-1.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var toc = window.onload;
+window.onload = null;
+$(document).ready(function() {
+    toc();
+    $("div.toclevel1:has('a:contains(\'Level \')')").remove();
+    $("div.toclevel2:has('a:contains(\'Level \')')").remove();
+});
+</script>
+++++
+
+Abstract
+--------
+This is a cheatsheet for http://www.methods.co.nz/asciidoc/[AsciiDoc] -
+``Text based document generation'' script. The cheatsheet available for
+different AsciiDoc versions (because of some markup syntax changes) and
+using different css styles. Here is list with link:asciidoc-index[all
+available cheatsheets for different AsciiDoc version and using different
+css styles].
+
+This cheatsheet is for AsciiDoc *8.6.6*, using *default css*.
+
+
+Document header (REQUIRED)
+--------------------------
+
+ Main Header
+ ===========
+ Optional Author Name <optional@author.email>
+ Optional version, optional date
+ :Author:    AlternativeWayToSetOptional Author Name
+ :Email:     <AlternativeWayToSetOptional@author.email>
+ :Date:      AlternativeWayToSetOptional date
+ :Revision:  AlternativeWayToSetOptional version
+
+Attributes
+----------
+There a lot of predefined attributes in AsciiDoc, plus you can add your own.
+To get attribute value use \{attributename} syntax.
+
+include::asciidoc-866_attr.txt[]
+
+
+Headers
+-------
+include::asciidoc-866_header.txt[]
+
+
+Paragraphs
+----------
+include::asciidoc-866_para.txt[]
+
+
+Blocks
+------
+include::asciidoc-866_blocks.txt[]
+
+
+Text
+----
+include::asciidoc-866_text.txt[]
+
+
+Macros: links, images & include
+-------------------------------
+If you'll need to use space in url/path you should replace it with %20.
+
+include::asciidoc-866_macros.txt[]
+
+
+Lists
+-----
+include::asciidoc-866_lists.txt[]
+
+
+Tables
+------
+You can fill table from CSV file using +include::+ macros inside table.
+
+include::asciidoc-866_tables.txt[]
+
+
+

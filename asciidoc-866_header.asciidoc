@@ -1,0 +1,84 @@
+++++
+<table class=cs>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+Level 1
+-------
+Text.
+
+Level 2
+~~~~~~~
+Text.
+
+Level 3 
+^^^^^^^
+Text.
+
+Level 4 
++++++++
+Text.
+
+....
+++++
+</td><td class="col2">
+++++
+Level 1
+-------
+Text.
+
+Level 2
+~~~~~~~
+Text.
+
+Level 3 
+^^^^^^^
+Text.
+
+Level 4 
++++++++
+Text.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+== Level 1 
+Text.
+
+=== Level 2 
+Text.
+
+==== Level 3 
+Text.
+
+===== Level 4 
+Text.
+
+....
+++++
+</td><td class="col2">
+++++
+== Level 1 
+Text.
+
+=== Level 2 
+Text.
+
+==== Level 3 
+Text.
+
+===== Level 4 
+Text.
+
+++++
+</td></tr>
+++++
+++++
+</table>
+++++

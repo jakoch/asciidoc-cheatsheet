@@ -1,0 +1,188 @@
+++++
+<table class=cs>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+forced +
+line break
+
+....
+++++
+</td><td class="col2">
+++++
+forced +
+line break
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+normal, _italic_, *bold*, +mono+.
+
+``double quoted'', `single quoted'.
+
+normal, ^super^, ~sub~.
+
+....
+++++
+</td><td class="col2">
+++++
+normal, _italic_, *bold*, +mono+.
+
+``double quoted'', `single quoted'.
+
+normal, ^super^, ~sub~.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+Command: `ls -al`
+
++mono *bold*+
+
+`passthru *bold*`
+
+....
+++++
+</td><td class="col2">
+++++
+Command: `ls -al`
+
++mono *bold*+
+
+`passthru *bold*`
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+Path: '/some/filez.txt', '.b'
+
+....
+++++
+</td><td class="col2">
+++++
+Path: '/some/filez.txt', '.b'
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+[red]#red text# [yellow-background]#on yellow#
+[big]#large# [red yellow-background big]*all bold*
+
+....
+++++
+</td><td class="col2">
+++++
+[red]#red text# [yellow-background]#on yellow#
+[big]#large# [red yellow-background big]*all bold*
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+Chars: n__i__**b**++m++[red]##r##
+
+....
+++++
+</td><td class="col2">
+++++
+Chars: n__i__**b**++m++[red]##r##
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+// Comment
+
+....
+++++
+</td><td class="col2">
+++++
+// Comment
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+(C) (R) (TM) -- ... -> <- => <= &#182;
+
+....
+++++
+</td><td class="col2">
+++++
+(C) (R) (TM) -- ... -> <- => <= &#182;
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+''''
+
+....
+++++
+</td><td class="col2">
+++++
+''''
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+Escaped:
+\_italic_, +++_italic_+++,
+t\__e__st, +++t__e__st+++,
++++<b>bold</b>+++, $$<b>normal</b>$$
+\&#182;
+\`not single quoted'
+\`\`not double quoted''
+
+....
+++++
+</td><td class="col2">
+++++
+Escaped:
+\_italic_, +++_italic_+++,
+t\__e__st, +++t__e__st+++,
++++<b>bold</b>+++, $$<b>normal</b>$$
+\&#182;
+\`not single quoted'
+\`\`not double quoted''
+
+++++
+</td></tr>
+++++
+++++
+</table>
+++++

@@ -1,0 +1,267 @@
+++++
+<table class=cs>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+----
+*Listing* Block
+
+Use: code or file listings
+----
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+----
+*Listing* Block
+
+Use: code or file listings
+----
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+.Optional Title
+[source,perl]
+----
+# *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+[source,perl]
+----
+# *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+****
+*Sidebar* Block
+
+Use: sidebar notes :)
+****
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+****
+*Sidebar* Block
+
+Use: sidebar notes :)
+****
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+.Optional Title
+==========================
+*Example* Block
+
+Use: examples :)
+
+Default caption "Example:"
+can be changed using
+
+ [caption="Custom: "]
+
+before example block.
+==========================
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+==========================
+*Example* Block
+
+Use: examples :)
+
+Default caption "Example:"
+can be changed using
+
+ [caption="Custom: "]
+
+before example block.
+==========================
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+[NOTE]
+===============================
+*NOTE* Block
+
+Use: multi-paragraph notes.
+===============================
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+[NOTE]
+===============================
+*NOTE* Block
+
+Use: multi-paragraph notes.
+===============================
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+////
+*Comment* block
+
+Use: hide comments
+////
+
+....
+++++
+</td><td class="col2">
+++++
+////
+*Comment* block
+
+Use: hide comments
+////
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+++++
+*Passthrough* Block
+<p>
+Use: backend-specific markup like
+<table border="1">
+<tr><td>1<td>2
+</table>
+++++
+
+....
+++++
+</td><td class="col2">
+++++
+++++
+*Passthrough* Block
+<p>
+Use: backend-specific markup like
+<table border="1">
+<tr><td>1<td>2
+</table>
+++++
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+ .Optional Title
+ ....
+ *Literal* Block
+ 
+ Use: workaround when literal
+ paragraph (indented) like
+   1. First.
+   2. Second.
+ incorrectly processed as list.
+ ....
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+....
+*Literal* Block
+
+Use: workaround when literal
+paragraph (indented) like
+  1. First.
+  2. Second.
+incorrectly processed as list.
+....
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+[quote, cite author, cite source]
+____
+*Quote* Block
+
+Use: cite somebody
+____
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+[quote, cite author, cite source]
+____
+*Quote* Block
+
+Use: cite somebody
+____
+
+++++
+</td></tr>
+++++
+++++
+</table>
+++++

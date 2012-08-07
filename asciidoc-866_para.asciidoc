@@ -1,0 +1,173 @@
+++++
+<table class=cs>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+
+Usual
+paragraph.
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+
+Usual
+paragraph.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+.Optional Title
+
+ Literal paragraph.
+  Must be indented.
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+
+ Literal paragraph.
+  Must be indented.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+
+[source,perl]
+die 'connect: '.$dbh->errstr;
+
+Not a code in next paragraph.
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+
+[source,perl]
+die 'connect: '.$dbh->errstr;
+
+Not a code in next paragraph.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+.Optional Title
+NOTE: This is an example
+      single-paragraph note.
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+NOTE: This is an example
+      single-paragraph note.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+.Optional Title
+[NOTE]
+This is an example
+single-paragraph note.
+
+....
+++++
+</td><td class="col2">
+++++
+.Optional Title
+[NOTE]
+This is an example
+single-paragraph note.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+TIP: Tip.
+
+....
+++++
+</td><td class="col2">
+++++
+TIP: Tip.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+IMPORTANT: Important.
+
+....
+++++
+</td><td class="col2">
+++++
+IMPORTANT: Important.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="even"><td class="col1">
+++++
+....
+WARNING: Warning.
+
+....
+++++
+</td><td class="col2">
+++++
+WARNING: Warning.
+
+++++
+</td></tr>
+++++
+++++
+<tr class="odd"><td class="col1">
+++++
+....
+CAUTION: Caution.
+
+....
+++++
+</td><td class="col2">
+++++
+CAUTION: Caution.
+
+++++
+</td></tr>
+++++
+++++
+</table>
+++++
