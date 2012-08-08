@@ -1,10 +1,4 @@
-++++
-<table class=cs>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
+
 .Bulleted
 * bullet
 * bullet
@@ -24,10 +18,7 @@
 ** bullet
 * bullet
 
-....
-++++
-</td><td class="col2">
-++++
+
 .Bulleted
 * bullet
 * bullet
@@ -47,32 +38,20 @@
 ** bullet
 * bullet
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
+
+
 .Bulleted 2
 - bullet
   * bullet
 
-....
-++++
-</td><td class="col2">
-++++
+
+
 .Bulleted 2
 - bullet
   * bullet
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
+
+
 .Ordered
 . number
 . number
@@ -92,10 +71,7 @@
 .. loweralpha
 . number
 
-....
-++++
-</td><td class="col2">
-++++
+
 .Ordered
 . number
 . number
@@ -115,13 +91,7 @@
 .. loweralpha
 . number
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
+
 .Ordered 2
 a. letter
 b. letter
@@ -137,10 +107,7 @@ b. letter
    .. letter2
 c. letter
 
-....
-++++
-</td><td class="col2">
-++++
+
 .Ordered 2
 a. letter
 b. letter
@@ -156,13 +123,6 @@ b. letter
    .. letter2
 c. letter
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 .Labeled
 Term 1::
     Definition 1
@@ -182,10 +142,6 @@ Term 4.2.2:::: Definition 4.2.2
 Term 4.3::: Definition 4.3
 Term 5:: Definition 5
 
-....
-++++
-</td><td class="col2">
-++++
 .Labeled
 Term 1::
     Definition 1
@@ -205,36 +161,18 @@ Term 4.2.2:::: Definition 4.2.2
 Term 4.3::: Definition 4.3
 Term 5:: Definition 5
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 .Labeled 2
 Term 1;;
     Definition 1
     Term 1.1::
         Definition 1.1
 
-....
-++++
-</td><td class="col2">
-++++
 .Labeled 2
 Term 1;;
     Definition 1
     Term 1.1::
         Definition 1.1
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 [horizontal]
 .Labeled horizontal
 Term 1:: Definition 1
@@ -256,10 +194,6 @@ Term 4.2.2:::: Definition 4.2.2
 Term 4.3::: Definition 4.3
 Term 5:: Definition 5
 
-....
-++++
-</td><td class="col2">
-++++
 [horizontal]
 .Labeled horizontal
 Term 1:: Definition 1
@@ -281,36 +215,18 @@ Term 4.2.2:::: Definition 4.2.2
 Term 4.3::: Definition 4.3
 Term 5:: Definition 5
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 [qanda]
 .Q&A
 Question 1::
     Answer 1
 Question 2:: Answer 2
 
-....
-++++
-</td><td class="col2">
-++++
 [qanda]
 .Q&A
 Question 1::
     Answer 1
 Question 2:: Answer 2
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 .Indent is optional
 - bullet
     * another bullet
@@ -325,11 +241,6 @@ Question 2:: Answer 2
 * bullet
 - bullet
 
-
-....
-++++
-</td><td class="col2">
-++++
 .Indent is optional
 - bullet
     * another bullet
@@ -344,14 +255,6 @@ Question 2:: Answer 2
 * bullet
 - bullet
 
-
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 .Break two lists
 . number
 . number
@@ -374,10 +277,6 @@ Independent paragraph break list.
 . number
 --
 
-....
-++++
-</td><td class="col2">
-++++
 .Break two lists
 . number
 . number
@@ -400,13 +299,7 @@ Independent paragraph break list.
 . number
 --
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
+
 .Continuation
 - bullet
 continuation
@@ -428,10 +321,8 @@ included in list
 +
 Last continuation.
 
-....
-++++
-</td><td class="col2">
-++++
+
+
 .Continuation
 - bullet
 continuation
@@ -453,13 +344,7 @@ included in list
 +
 Last continuation.
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
+
 .List block allow sublist inclusion
 - bullet
   * bullet
@@ -481,10 +366,7 @@ Last continuation.
   . number
 
 
-....
-++++
-</td><td class="col2">
-++++
+
 .List block allow sublist inclusion
 - bullet
   * bullet
@@ -504,11 +386,3 @@ Last continuation.
 --
     .. letter
   . number
-
-
-++++
-</td></tr>
-++++
-++++
-</table>
-++++
