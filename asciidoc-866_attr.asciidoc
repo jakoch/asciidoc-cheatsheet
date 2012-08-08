@@ -1,76 +1,25 @@
-++++
-<table class=cs>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 Author is {author}
 
 Version is {revision}
 
-....
-++++
-</td><td class="col2">
-++++
 Author is {author}
 
 Version is {revision}
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 :My name: Alex Efros
 My name is {myname}
 
-....
-++++
-</td><td class="col2">
-++++
 :My name: Alex Efros
 My name is {myname}
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 Line
 with bad attribute {qwe} will be
 deleted
 
-....
-++++
-</td><td class="col2">
-++++
 Line
 with bad attribute {qwe} will be
 deleted
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 Escaped: \{qwe} and +++{qwe}+++
 
-....
-++++
-</td><td class="col2">
-++++
 Escaped: \{qwe} and +++{qwe}+++
-
-++++
-</td></tr>
-++++
-++++
-</table>
-++++
