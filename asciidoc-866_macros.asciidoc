@@ -37,34 +37,35 @@ http://google.com[Google Search]
 mailto:root@localhost[email admin]
 
 First home
-image:images/icons/home.png[]
+image:https://assets.github.com/images/modules/about_page/octocat.png[]
 , second home
-image:images/icons/home.png[Alt text]
+image:https://assets.github.com/images/modules/about_page/octocat.png[Alt text]
 .
 
 .Block image
-image::images/icons/home.png[]
-image::images/icons/home.png[Alt text]
+image::https://assets.github.com/images/modules/about_page/octocat.png[]
+image::https://assets.github.com/images/modules/about_page/octocat.png[Alt text]
 
 .Thumbnail linked to full image
-image:/images/font/640-screen2.gif[
+
+image:https://assets.github.com/images/modules/about_page/octocat.png[
 "My screenshot",width=128,
-link="/images/font/640-screen2.gif"]
+link="https://assets.github.com/images/modules/about_page/octocat.png"]
 
 First home
-image:images/icons/home.png[]
+image:https://assets.github.com/images/modules/about_page/octocat.png[]
 , second home
-image:images/icons/home.png[Alt text]
+image:https://assets.github.com/images/modules/about_page/octocat.png[Alt text]
 .
 
 .Block image
-image::images/icons/home.png[]
-image::images/icons/home.png[Alt text]
+image::https://assets.github.com/images/modules/about_page/octocat.png[]
+image::https://assets.github.com/images/modules/about_page/octocat.png[Alt text]
 
 .Thumbnail linked to full image
-image:/images/font/640-screen2.gif[
+image:https://assets.github.com/images/modules/about_page/octocat.png[
 "My screenshot",width=128,
-link="/images/font/640-screen2.gif"]
+link="https://assets.github.com/images/modules/about_page/octocat.png"]
 
 This is example how files
 can be included.
