@@ -4,31 +4,6 @@ Alex Efros <powerman@powerman.name>
 :Revision: 2.2.1
 :pygments:
 
-// This document is designed to be viewed as HTML
-
-++++
-<style>
-table.cs div.literalblock,
-table.cs div.admonitionblock {
-    margin:0;
-}
-table.cs { width: 100%; }
-table.cs td.col1 { width: 50%; padding: 1% 0; }
-table.cs td.col2 { width: 50%; padding:1% 0 1% 1%; border-left:solid,2px,#ddd; }
-table.cs tr.even { background-color: #FAFAFA; }
-</style>
-<script src="/js/jquery-1.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-var toc = window.onload;
-window.onload = null;
-$(document).ready(function() {
-    toc();
-    $("div.toclevel1:has('a:contains(\'Level \')')").remove();
-    $("div.toclevel2:has('a:contains(\'Level \')')").remove();
-});
-</script>
-++++
-
 Abstract
 --------
 This is a cheatsheet for http://www.methods.co.nz/asciidoc/[AsciiDoc] -
