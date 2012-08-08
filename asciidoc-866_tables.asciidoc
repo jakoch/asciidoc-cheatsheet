@@ -1,10 +1,3 @@
-++++
-<table class=cs>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 .An example table
 [options="header,footer"]
 |=======================
@@ -15,10 +8,7 @@
 |6    |Three items|d
 |=======================
 
-....
-++++
-</td><td class="col2">
-++++
+
 .An example table
 [options="header,footer"]
 |=======================
@@ -29,13 +19,6 @@
 |6    |Three items|d
 |=======================
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
 .CSV data, 15% each column
 [format="csv",width="60%",cols="4"]
 [frame="topbot",grid="none"]
@@ -46,10 +29,7 @@ A,B,C,D
 |======
 
 
-....
-++++
-</td><td class="col2">
-++++
+
 .CSV data, 15% each column
 [format="csv",width="60%",cols="4"]
 [frame="topbot",grid="none"]
@@ -60,13 +40,6 @@ A,B,C,D
 |======
 
 
-++++
-</td></tr>
-++++
-++++
-<tr class="odd"><td class="col1">
-++++
-....
 [grid="rows",format="csv"]
 [options="header",cols="^,<,<s,<,>m"]
 |===========================
@@ -75,10 +48,7 @@ ID,FName,LName,Address,Phone
 2,X,Y,"A,B",45678
 |===========================
 
-....
-++++
-</td><td class="col2">
-++++
+
 [grid="rows",format="csv"]
 [options="header",cols="^,<,<s,<,>m"]
 |===========================
@@ -87,13 +57,7 @@ ID,FName,LName,Address,Phone
 2,X,Y,"A,B",45678
 |===========================
 
-++++
-</td></tr>
-++++
-++++
-<tr class="even"><td class="col1">
-++++
-....
+
 .Multiline cells, row/col span
 |====
 |Date |Duration |Avg HR |Notes
@@ -110,10 +74,7 @@ Back-to-back with previous interval.
 
 |====
 
-....
-++++
-</td><td class="col2">
-++++
+
 .Multiline cells, row/col span
 |====
 |Date |Duration |Avg HR |Notes
@@ -130,9 +91,3 @@ Back-to-back with previous interval.
 
 |====
 
-++++
-</td></tr>
-++++
-++++
-</table>
-++++
